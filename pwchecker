@@ -1,8 +1,10 @@
 import re
-
+## Andrew Larson
+## Date: 29APR22
+## CYB333 Final Exam Option 2
 
 def main():
-          password= input("Create a password : ")
+          password= input("Create a password that has 6-12 characters, one number , one uppercase letter and a special character : ")
           x = True #random variable x which is set to TRUE
           while x:  #while x is TRUE,then run the following which is in the loop
               if (len(password)<6 or len(password)>12): #if password not between 6 and 12 exit loop
